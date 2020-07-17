@@ -28,7 +28,7 @@ ms.author: maggies
   
 ## Syntax  
 
-When you manipulate SPNs with the setspn, the SPN must be entered in the correct format. The format of an SPN is `<serviceclass>/host:<por>`. The command syntax for using SetSPN utility to create an SPN for the report server resembles the following:  
+When you manipulate SPNs with the setspn, the SPN must be entered in the correct format. The format of an SPN is `<serviceclass>/host:<port>`. The command syntax for using SetSPN utility to create an SPN for the report server resembles the following:  
   
 ```  
 Setspn -s http/<computer-name>.<domain-name>:<port> <domain-user-account>  
